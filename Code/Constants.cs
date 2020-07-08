@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Chinese_Calendar_Weight_eneration
+namespace CalendarGeneration
 {
     public static class Constants
     {
@@ -169,6 +169,8 @@ namespace Chinese_Calendar_Weight_eneration
                 new DateTime(2020, 9, 27),
                 new DateTime(2020, 10, 10),
                 new DateTime(2021, 1, 1),
+                new DateTime(2021, 1, 2),
+                new DateTime(2021, 1, 3),
             };
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Chinese_Calendar_Weight_eneration
+namespace CalendarGeneration
 {
     public static class Helper
     {
@@ -24,19 +24,21 @@ namespace Chinese_Calendar_Weight_eneration
         public static int ToInt(this bool value)
             => value ? 1 : 0;
 
+        private static readonly DateTime LastDate = new DateTime(2021, 1, 4);
+
         public static List<DateDto> DateGeneration()
         {
             var result = new List<DateTime>
             {
-                new DateTime(2015, 12, 31)
+                new DateTime(2015, 12, 29)
             };
 
             do
             {
                 result.Add(result.Last().AddDays(1));
-            } while (result.Last().Year != 2021);
+            } while (result.Last() != LastDate);
 
-            return result.Select(x => new DateDto(x)).ToList();
+            return result.Where(x => x.Year != 2015 && x.Year != 2021).Select(x => new DateDto(x)).ToList();
         }
 
         private const int HolidayOutNum = 8;

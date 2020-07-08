@@ -3,7 +3,7 @@ using System.Globalization;
 using System.IO;
 using CsvHelper;
 
-namespace Chinese_Calendar_Weight_eneration
+namespace CalendarGeneration
 {
     internal class Program
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Chinese_Calendar_Weight_eneration
+namespace CalendarGeneration
 {
     public class DateDto
     {

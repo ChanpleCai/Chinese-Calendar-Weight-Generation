@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chinese-Calendar-Weight-Generation", "Code\Chinese-Calendar-Weight-Generation.csproj", "{F5FACC5C-0BA7-42B5-83A9-39CA9CACE852}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generation", "Code\Generation.csproj", "{F5FACC5C-0BA7-42B5-83A9-39CA9CACE852}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
