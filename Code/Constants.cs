@@ -133,6 +133,9 @@ namespace CalendarGeneration
                 new DateTime(2020, 10, 6),
                 new DateTime(2020, 10, 7),
                 new DateTime(2020, 10, 8),
+                new DateTime(2021, 1, 1),
+                new DateTime(2021, 1, 2),
+                new DateTime(2021, 1, 3),
             };
 
         public static readonly List<DateTime> WorkWeekendDays =
@@ -168,9 +171,6 @@ namespace CalendarGeneration
                 new DateTime(2020, 6, 28),
                 new DateTime(2020, 9, 27),
                 new DateTime(2020, 10, 10),
-                new DateTime(2021, 1, 1),
-                new DateTime(2021, 1, 2),
-                new DateTime(2021, 1, 3),
             };
     }
 }

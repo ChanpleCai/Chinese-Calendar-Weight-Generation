@@ -38,7 +38,7 @@ namespace CalendarGeneration
                 result.Add(result.Last().AddDays(1));
             } while (result.Last() != LastDate);
 
-            return result.Where(x => x.Year != 2015 && x.Year != 2021).Select(x => new DateDto(x)).ToList();
+            return result.Select(x => new DateDto(x)).ToList();
         }
 
         private const int HolidayOutNum = 8;
